@@ -4,6 +4,7 @@
   flex-direction: column;
   gap: 80px;
   margin: 0 auto 76px;
+  box-shadow: 10px 20px 5px rgba(0, 0, 0, 0.5);
 }
 
 .stories__content {
