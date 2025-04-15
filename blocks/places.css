@@ -1,5 +1,5 @@
-.stories {
-  max-width: 990px;
+.places {
+  m.ax-width: 990px;
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -7,7 +7,7 @@
   box-shadow: 10px 20px 5px rgba(0, 0, 0, 0.5);
 }
 
-.stories__content {
+.places__content {
   max-width: 984px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -15,7 +15,7 @@
   grid-gap: 48px 40px;
 }
 
-.stories__header {
+.places__header {
   max-width: 460px;
   height: max-content;
   font-family: "Inter-Black", sans-serif;
@@ -26,24 +26,24 @@
   margin: 0;
 }
 
-.stories__image {
+.places__image {
   max-width: 460px;
   max-height: 460px;
   grid-column: 1 / 4;
   grid-row: 2 / 5;
 }
 
-.stories__image-item {
+.places__image-item {
   width: 100%;
   height: max-content;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-.stories__image-item:hover {
+.places__image-item:hover {
   opacity: 0.5;
 }
 
-.stories__button {
+.places__button {
   text-decoration: none;
   padding: 15px;
   font-size: 18px;
@@ -57,11 +57,11 @@
   grid-row: 5;
 }
 
-.stories__button:hover {
+.places__button:hover {
   background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
-.stories__link {
+.places__link {
   text-decoration: none;
   color: white;
   font-size: 18px;
@@ -70,18 +70,18 @@
   padding-top: 12%;
 }
 
-.stories__link-heading {
+.places__link-heading {
   font-size: 12px;
   color: #aaa;
   letter-spacing: 3px;
 }
 
-.stories__link-artist {
+.places__link-artist {
   line-height: 22px;
   margin: 0;
 }
 
-.stories__paragraph {
+.places__paragraph {
   max-width: 484px;
   line-height: 1.6;
   grid-column: span 3;
@@ -90,43 +90,43 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 544px) {
-  .stories {
+  .places {
     max-width: 320px;
     gap: 50px;
     margin: 0 auto 65px;
   }
 
-  .stories__content {
+  .places__content {
     grid-template-columns: 100%;
     grid-template-rows: repeat(5, 0fr) 50px;
     grid-gap: 30px 0;
   }
 
-  .stories__header {
+  .places__header {
     font-size: 32px;
     line-height: 35px;
   }
 
-  .stories__image {
+  .places__image {
     max-width: 320px;
     max-height: 320px;
     grid-column: 1;
     grid-row: 3;
   }
 
-  .stories__button {
+  .places__button {
     max-width: 320px;
     font-size: 14px;
     grid-row: 6;
   }
 
-  .stories__link {
+  .places__link {
     padding: 0;
     grid-column: 1;
     grid-row: 2;
   }
 
-  .stories__paragraph {
+  .places__paragraph {
     max-width: 290px;
     grid-column: 1;
     grid-row: 4;
@@ -134,42 +134,42 @@
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
-  .stories {
+  .places {
     max-width: 720px;
     gap: 72px;
   }
 
-  .stories__content {
+  .places__content {
     grid-template-rows: 90px 1fr repeat(2, 50px);
   }
 
-  .stories__header {
+  .places__header {
     font-size: 42px;
     line-height: 46px;
     padding-top: 12%;
   }
 
-  .stories__header_screen_m {
+  .places__header_screen_m {
     padding: 0;
   }
 
-  .stories__image {
+  .places__image {
     max-width: 340px;
     max-height: 340px;
     grid-row: 2 / 4;
   }
 
-  .stories__button {
+  .places__button {
     grid-column: 1 / 4;
     grid-row: 4;
     font-size: 14px;
   }
 
-  .stories__link {
+  .places__link {
     padding: 10px;
   }
 
-  .stories__paragraph {
+  .places__paragraph {
     max-width: 352px;
     font-size: 12px;
     grid-column: span 3;
