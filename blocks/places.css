@@ -1,5 +1,5 @@
 .places {
-  m.ax-width: 990px;
+  max-width: 990px;
   display: flex;
   flex-direction: column;
   gap: 80px;
