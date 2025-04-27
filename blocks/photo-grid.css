@@ -1,16 +1,14 @@
 .photo-grid {
   max-width: 1190px;
   display: grid;
+  width: 1184;
+  height: 442;
+  top: 1994px;
+  left: 43px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 50px repeat(2, 1fr);
   grid-gap: 16px 16px;
   margin: 26px auto 92px;
-}
-
-.photo-grid__header {
-  text-align: center;
-  margin: auto;
-  grid-column: span 4;
 }
 
 .photo-grid__item {
