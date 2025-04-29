@@ -138,11 +138,26 @@
     grid-template-columns: 100%;
     grid-template-rows: repeat(5, 0fr) 50px;
     grid-gap: 30px 0;
+    grid-template-areas:
+      "header"
+      "artist"
+      "image"
+      "paragraph"
+      "button";
   }
 
   .places__header {
     font-size: 32px;
     line-height: 35px;
+    grid-template-areas: "header";
+  }
+  .places__link-heading {
+    font-size: 12px;
+    grid-template-areas: "link-heading";
+  }
+  .places__link-artist {
+    font-size: 18px;
+    grid-template-areas: "link-artist";
   }
 
   .places__image {
@@ -150,24 +165,27 @@
     max-height: 320px;
     grid-column: 1;
     grid-row: 3;
-  }
-
-  .places__button {
-    max-width: 320px;
-    font-size: 14px;
-    grid-row: 6;
-  }
-
-  .places__link {
-    padding: 0;
-    grid-column: 1;
-    grid-row: 2;
+    grid-template-areas: "image";
   }
 
   .places__paragraph {
     max-width: 290px;
     grid-column: 1;
     grid-row: 4;
+    grid-template-areas: "paragraph";
+  }
+
+  .places__button {
+    max-width: 320px;
+    font-size: 14px;
+    grid-row: 6;
+    grid-template-areas: "button";
+  }
+
+  .places__link {
+    padding: 0;
+    grid-column: 1;
+    grid-row: 2;
   }
 }
 
@@ -179,14 +197,27 @@
 
   .places__content {
     grid-template-rows: 90px 1fr repeat(2, 50px);
+    grid-template-areas:
+      "link-header"
+      "link-artist"
+      "paragraph-image"
+      "paragraph-button";
   }
 
   .places__header {
     font-size: 42px;
     line-height: 46px;
     padding-top: 12%;
+    grid-template-areas: "header";
   }
-
+  .places__link-heading {
+    font-size: 12px;
+    grid-template-areas: "header";
+  }
+  .places__link-artist {
+    font-size: 18px;
+    grid-template-areas: "artist";
+  }
   .places__header_screen_m {
     padding: 0;
   }
@@ -195,12 +226,14 @@
     max-width: 340px;
     max-height: 340px;
     grid-row: 2 / 4;
+    grid-template-areas: "image";
   }
 
   .places__button {
     grid-column: 1 / 4;
     grid-row: 4;
     font-size: 14px;
+    grid-template-areas: "button";
   }
 
   .places__link {
@@ -212,5 +245,6 @@
     font-size: 12px;
     grid-column: span 3;
     grid-row: 2 / 5;
+    grid-template-areas: "paragraph";
   }
 }
