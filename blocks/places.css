@@ -65,7 +65,6 @@
   justify-content: center;
   text-decoration: none;
   border-radius: 4px;
-  grid-area: "button";
   box-shadow: 5px 5px 10px 0px #00000040;
   padding: 13px 20px 15px 20px;
   gap: 10px;
@@ -94,7 +93,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 12%;
+  letter-spacing: normal;
   text-transform: uppercase;
   color: #aaaaaa;
 }
@@ -102,14 +101,13 @@
 .places__link-artist {
   margin: 0;
   width: 329.66px;
-  height: 22;
+  height: 22px;
   top: 2636px;
   left: 651.47px;
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 0%;
   color: #ffffff;
 }
 
@@ -175,7 +173,6 @@
   }
 
   .places__content {
-    grid-column: 340px 352px;
     grid-template-rows: auto 340px auto;
     grid-template-areas:
       "places__header places__artist"
