@@ -29,7 +29,7 @@
 }
 .places__artist {
   grid-area: places__artist;
-  margin-left: 5px;
+  margin: 15px;
 }
 
 .places__image-item {
@@ -118,7 +118,7 @@
 
   .places__content {
     grid-template-columns: auto;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: 30px;
     gap: 20px;
     grid-template-areas:
       "places__header"

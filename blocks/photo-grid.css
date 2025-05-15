@@ -18,11 +18,10 @@
     /*grid-template-columns: 288px;
     grid-template-rows: repeat(8, 216px);
     grid-gap: 12px;*/
-    margin: 0 0 64px;
-    max-width: 316px;
+    margin: 0 auto 64px;
+    max-width: 320px;
     width: 100%;
     display: block;
-    padding: 0 2px;
   }
 
   /*.photo-grid__header {
